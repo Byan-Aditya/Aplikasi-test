@@ -1,13 +1,14 @@
 {
   "name": "Byan Aditya CV",
   "short_name": "ByanCV",
-  "start_url": "./",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3498db",
   "orientation": "portrait",
   "scope": "./",
-  "lang": "id"
+  "lang": "id",
+  "version": "1",
   "icons": [
     {
       "src": "aplikasi/icon-192.png",
