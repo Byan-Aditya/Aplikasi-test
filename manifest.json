@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "orientation": "portrait",
+  "orientation": "standalone",
   "scope": "./",
   "lang": "id",
   "version": "1.1",
