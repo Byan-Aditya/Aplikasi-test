@@ -171,9 +171,21 @@ document.addEventListener("DOMContentLoaded", () => {
   cursor.classList.add("custom-cursor");
   document.body.appendChild(cursor);
 
+  // Gerakkan kursor
   document.addEventListener("mousemove", (e) => {
     cursor.style.top = `${e.clientY}px`;
     cursor.style.left = `${e.clientX}px`;
+    cursor.style.opacity = "1"; // Munculkan saat bergerak
+  });
+
+  // Sembunyikan saat mouse keluar dari window
+  document.addEventListener("mouseleave", () => {
+    cursor.style.opacity = "0";
+  });
+
+  // Tampilkan lagi saat mouse masuk ke window
+  document.addEventListener("mouseenter", () => {
+    cursor.style.opacity = "1";
   });
 });
 
