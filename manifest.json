@@ -2,7 +2,7 @@
   "name": "Byan Aditya CV",
   "short_name": "ByanCV",
   "start_url": "index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "orientation": "standalone",
